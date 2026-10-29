@@ -1,0 +1,61 @@
+{
+  "fill": {
+    "automatic-gradient": "extended-srgb:0.47059,0.14118,0.62353,1.00000"
+  },
+  "groups": [
+    {
+      "name": "Figure",
+      "layers": [
+        {
+          "image-name": "Figure.svg",
+          "name": "Figure"
+        }
+      ],
+      "shadow": {
+        "kind": "neutral",
+        "opacity": 0.24
+      },
+      "translucency": {
+        "enabled": true,
+        "value": 0.5
+      }
+    },
+    {
+      "name": "Inner Disc",
+      "layers": [
+        {
+          "image-name": "Inner-Disc.svg",
+          "name": "Inner Disc"
+        }
+      ],
+      "shadow": {
+        "kind": "neutral",
+        "opacity": 0.25
+      },
+      "translucency": {
+        "enabled": true,
+        "value": 0.4
+      }
+    },
+    {
+      "name": "Outer Disc",
+      "layers": [
+        {
+          "image-name": "Outer-Disc.svg",
+          "name": "Outer Disc"
+        }
+      ],
+      "shadow": {
+        "kind": "neutral",
+        "opacity": 0.22
+      },
+      "translucency": {
+        "enabled": true,
+        "value": 0.45
+      }
+    }
+  ],
+  "supported-platforms": {
+    "squares": "shared"
+  }
+}

@@ -1,0 +1,486 @@
+{
+  "fill": {
+    "linear-gradient": [
+      "srgb:0.57300,0.22500,0.76000,1.00000",
+      "srgb:0.47800,0.18700,0.63400,1.00000"
+    ],
+    "orientation": {
+      "start": {
+        "x": 0.5,
+        "y": 0.0
+      },
+      "stop": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "fill-specializations": [
+      {
+        "value": {
+          "linear-gradient": [
+            "srgb:0.57300,0.22500,0.76000,1.00000",
+            "srgb:0.47800,0.18700,0.63400,1.00000"
+          ],
+          "orientation": {
+            "start": {
+              "x": 0.5,
+              "y": 0.0
+            },
+            "stop": {
+              "x": 0.5,
+              "y": 1.0
+            }
+          }
+        }
+      },
+      {
+        "appearance": "dark",
+        "value": {
+          "linear-gradient": [
+            "gray:0.19200,1.00000",
+            "gray:0.07800,1.00000"
+          ],
+          "orientation": {
+            "start": {
+              "x": 0.5,
+              "y": 0.0
+            },
+            "stop": {
+              "x": 0.5,
+              "y": 1.0
+            }
+          }
+        }
+      }
+    ]
+  },
+  "groups": [
+    {
+      "name": "Pen highlight",
+      "layers": [
+        {
+          "image-name": "Pen-Nib.svg",
+          "name": "Pen nib",
+          "fill-specializations": [
+            {
+              "value": {
+                "linear-gradient": [
+                  "display-p3:1.00000,1.00000,1.00000,0.88100",
+                  "srgb:1.00000,1.00000,1.00000,0.86000"
+                ],
+                "orientation": {
+                  "start": {
+                    "x": 0.5,
+                    "y": 0.156
+                  },
+                  "stop": {
+                    "x": 0.5,
+                    "y": 0.948
+                  }
+                }
+              }
+            },
+            {
+              "appearance": "dark",
+              "value": {
+                "linear-gradient": [
+                  "display-p3:0.66600,0.53500,1.00000,0.66000",
+                  "display-p3:0.68900,0.56600,1.00000,1.00000"
+                ],
+                "orientation": {
+                  "start": {
+                    "x": 0.5,
+                    "y": 0.0
+                  },
+                  "stop": {
+                    "x": 0.5,
+                    "y": 1.0
+                  }
+                }
+              }
+            },
+            {
+              "appearance": "tinted",
+              "value": {
+                "linear-gradient": [
+                  "gray:1.00000,1.00000",
+                  "gray:0.84500,1.00000"
+                ],
+                "orientation": {
+                  "start": {
+                    "x": 0.5,
+                    "y": 0.0
+                  },
+                  "stop": {
+                    "x": 0.5,
+                    "y": 1.0
+                  }
+                }
+              }
+            }
+          ],
+          "opacity-specializations": [
+            {
+              "value": 0.95
+            },
+            {
+              "appearance": "dark",
+              "value": 1
+            },
+            {
+              "appearance": "tinted",
+              "value": 1
+            }
+          ],
+          "glass-specializations": [
+            {
+              "value": false
+            },
+            {
+              "appearance": "dark",
+              "value": true
+            }
+          ]
+        }
+      ],
+      "blend-mode": "screen",
+      "lighting": "individual",
+      "specular": true,
+      "translucency": {
+        "enabled": true,
+        "value": 0.47
+      },
+      "shadow": {
+        "kind": "neutral",
+        "opacity": 0.6
+      },
+      "refractivity": {
+        "enabled": false,
+        "strength": 0,
+        "depth": 0
+      },
+      "opacity-specializations": [
+        {
+          "value": 0
+        },
+        {
+          "appearance": "dark",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Pen nib",
+      "layers": [
+        {
+          "image-name": "Pen-Nib.svg",
+          "name": "Pen nib",
+          "glass": true,
+          "fill-specializations": [
+            {
+              "value": {
+                "linear-gradient": [
+                  "display-p3:1.00000,1.00000,1.00000,0.89000",
+                  "srgb:1.00000,1.00000,1.00000,0.86000"
+                ],
+                "orientation": {
+                  "start": {
+                    "x": 0.5,
+                    "y": 0.156
+                  },
+                  "stop": {
+                    "x": 0.5,
+                    "y": 0.948
+                  }
+                }
+              }
+            },
+            {
+              "appearance": "dark",
+              "value": {
+                "linear-gradient": [
+                  "display-p3:0.93800,0.66800,1.00000,1.00000",
+                  "display-p3:0.76800,0.47200,0.96000,0.36000"
+                ],
+                "orientation": {
+                  "start": {
+                    "x": 0.5,
+                    "y": 0.287
+                  },
+                  "stop": {
+                    "x": 0.5,
+                    "y": 0.716
+                  }
+                }
+              }
+            },
+            {
+              "appearance": "tinted",
+              "value": {
+                "linear-gradient": [
+                  "gray:1.00000,1.00000",
+                  "gray:0.84500,1.00000"
+                ],
+                "orientation": {
+                  "start": {
+                    "x": 0.5,
+                    "y": 0.0
+                  },
+                  "stop": {
+                    "x": 0.5,
+                    "y": 1.0
+                  }
+                }
+              }
+            }
+          ],
+          "opacity-specializations": [
+            {
+              "value": 0.95
+            },
+            {
+              "appearance": "dark",
+              "value": 0.82
+            },
+            {
+              "appearance": "tinted",
+              "value": 1
+            }
+          ]
+        }
+      ],
+      "opacity": 1,
+      "lighting": "individual",
+      "specular": true,
+      "translucency": {
+        "enabled": true,
+        "value": 0.47
+      },
+      "refractivity": {
+        "enabled": true,
+        "strength": 0.39,
+        "depth": 0.08
+      },
+      "blur-material": 0.01,
+      "blend-mode-specializations": [
+        {
+          "value": "lighten"
+        },
+        {
+          "appearance": "dark",
+          "value": "normal"
+        }
+      ],
+      "shadow-specializations": [
+        {
+          "value": {
+            "kind": "neutral",
+            "opacity": 0.6
+          }
+        },
+        {
+          "appearance": "dark",
+          "value": {
+            "kind": "neutral",
+            "opacity": 0.3
+          }
+        }
+      ]
+    },
+    {
+      "name": "Group 3",
+      "layers": [
+        {
+          "image-name": "2_circle2.svg",
+          "name": "2_circle2",
+          "glass": true,
+          "fill-specializations": [
+            {
+              "value": {
+                "linear-gradient": [
+                  "display-p3:0.84000,0.57000,1.00000,1.00000",
+                  "display-p3:0.78500,0.52500,0.96900,1.00000"
+                ],
+                "orientation": {
+                  "start": {
+                    "x": 0.5,
+                    "y": 0.0
+                  },
+                  "stop": {
+                    "x": 0.5,
+                    "y": 1.0
+                  }
+                }
+              }
+            },
+            {
+              "appearance": "dark",
+              "value": {
+                "linear-gradient": [
+                  "display-p3:0.65400,0.30000,0.91700,1.00000",
+                  "display-p3:0.50600,0.22200,0.75100,1.00000"
+                ],
+                "orientation": {
+                  "start": {
+                    "x": 0.5,
+                    "y": 0.0
+                  },
+                  "stop": {
+                    "x": 0.5,
+                    "y": 1.0
+                  }
+                }
+              }
+            },
+            {
+              "appearance": "tinted",
+              "value": {
+                "linear-gradient": [
+                  "gray:1.00000,1.00000",
+                  "gray:0.65000,1.00000"
+                ],
+                "orientation": {
+                  "start": {
+                    "x": 0.5,
+                    "y": 0.0
+                  },
+                  "stop": {
+                    "x": 0.5,
+                    "y": 1.0
+                  }
+                }
+              }
+            }
+          ],
+          "opacity-specializations": [
+            {
+              "value": 0.95
+            },
+            {
+              "appearance": "tinted",
+              "value": 0.6
+            }
+          ]
+        }
+      ],
+      "blend-mode": "normal",
+      "opacity": 1,
+      "lighting": "individual",
+      "specular": "outside",
+      "translucency": {
+        "enabled": true,
+        "value": 0.2
+      },
+      "shadow": {
+        "kind": "neutral",
+        "opacity": 0.5
+      },
+      "refractivity": {
+        "enabled": true,
+        "strength": 0.5,
+        "depth": 0
+      }
+    },
+    {
+      "name": "Group 4",
+      "layers": [
+        {
+          "image-name": "3_circle1.svg",
+          "name": "3_circle1",
+          "glass": true,
+          "fill-specializations": [
+            {
+              "value": {
+                "linear-gradient": [
+                  "display-p3:0.68600,0.40300,0.88200,1.00000",
+                  "display-p3:0.60500,0.35200,0.78400,1.00000"
+                ],
+                "orientation": {
+                  "start": {
+                    "x": 0.5,
+                    "y": 0.0
+                  },
+                  "stop": {
+                    "x": 0.5,
+                    "y": 1.0
+                  }
+                }
+              }
+            },
+            {
+              "appearance": "dark",
+              "value": {
+                "linear-gradient": [
+                  "display-p3:0.47800,0.26000,0.70100,1.00000",
+                  "display-p3:0.31000,0.15600,0.46900,1.00000"
+                ],
+                "orientation": {
+                  "start": {
+                    "x": 0.5,
+                    "y": 0.0
+                  },
+                  "stop": {
+                    "x": 0.5,
+                    "y": 1.0
+                  }
+                }
+              }
+            },
+            {
+              "appearance": "tinted",
+              "value": {
+                "linear-gradient": [
+                  "gray:1.00000,1.00000",
+                  "gray:0.65000,1.00000"
+                ],
+                "orientation": {
+                  "start": {
+                    "x": 0.5,
+                    "y": 0.0
+                  },
+                  "stop": {
+                    "x": 0.5,
+                    "y": 1.0
+                  }
+                }
+              }
+            }
+          ],
+          "opacity-specializations": [
+            {
+              "value": 0.95
+            },
+            {
+              "appearance": "tinted",
+              "value": 0.36
+            }
+          ]
+        }
+      ],
+      "blend-mode": "normal",
+      "opacity": 1,
+      "lighting": "individual",
+      "specular": "outside",
+      "translucency": {
+        "enabled": true,
+        "value": 0.02
+      },
+      "shadow": {
+        "kind": "neutral",
+        "opacity": 0.5
+      },
+      "refractivity": {
+        "enabled": false,
+        "strength": 0,
+        "depth": 0
+      }
+    }
+  ],
+  "features": [
+    "refractivity",
+    "specular-location"
+  ],
+  "supported-platforms": {
+    "squares": "shared"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "fill": {
+    "automatic-gradient": "extended-srgb:0.58039,0.16863,0.81961,1.00000"
+  },
+  "groups": [
+    {
+      "name": "Transcript",
+      "layers": [
+        {
+          "image-name": "05-Page-Fold.svg",
+          "name": "05-Page-Fold"
+        },
+        {
+          "image-name": "04-Transcript.svg",
+          "name": "04-Transcript"
+        }
+      ],
+      "shadow": {
+        "kind": "neutral",
+        "opacity": 0.3
+      },
+      "translucency": {
+        "enabled": true,
+        "value": 0.12
+      }
+    },
+    {
+      "name": "Voice",
+      "layers": [
+        {
+          "image-name": "03-Voice.svg",
+          "name": "03-Voice"
+        }
+      ],
+      "shadow": {
+        "kind": "neutral",
+        "opacity": 0.25
+      },
+      "translucency": {
+        "enabled": true,
+        "value": 0.2
+      }
+    },
+    {
+      "name": "Inner signal",
+      "layers": [
+        {
+          "image-name": "02-Inner-Ring.svg",
+          "name": "02-Inner-Ring"
+        }
+      ],
+      "shadow": {
+        "kind": "neutral",
+        "opacity": 0.15
+      },
+      "translucency": {
+        "enabled": true,
+        "value": 0.65
+      }
+    },
+    {
+      "name": "Outer signal",
+      "layers": [
+        {
+          "image-name": "01-Outer-Ring.svg",
+          "name": "01-Outer-Ring"
+        }
+      ],
+      "shadow": {
+        "kind": "neutral",
+        "opacity": 0.12
+      },
+      "translucency": {
+        "enabled": true,
+        "value": 0.82
+      }
+    }
+  ],
+  "supported-platforms": {
+    "circles": [
+      "watchOS"
+    ],
+    "squares": "shared"
+  }
+}
